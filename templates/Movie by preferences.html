@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} Find a movie for your soul... {% endblock %}
+
+{% block content %}
+    <form action="/results" target="_blank">
+        <h1>TF-IDF, similarity, what girls did</h1>
+        3. Enter your key-words:
+        <br>
+        <input type="text" class="form-control" placeholder="The moon, stars, nightmare..."><br>
+    <input type="submit" class="btn btn-warning" value="Search">
+    </form>
+{% endblock %}

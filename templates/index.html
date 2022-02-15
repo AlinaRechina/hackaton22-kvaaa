@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %} Main {% endblock %}
+
+{% block content %}
+    <h1>Site-description: Here you can find a movie by key-words in case you don't know what to watch...</h1><br>
+    <h2>On this page you can find some graphics by wiki_movie_plots_deduped dataset</h2>
+    <br>
+    <br>
+    <p>Titles length by year</p>
+    <img src="static/titles_len.png">
+    <br>
+    <br>
+    <p>The most popular genre depending on the country of origin.</p>
+    <img src="static/genres distribution.png">
+    <br>
+    <br>
+    <p>As we can see by different years wordclouds, word distribution slightly changed.</p>
+    <img src="static/1945.jpg" alt="Фотография 1" width="450" height="360">
+    <img src="static/2010.jpg" alt="Фотография 2" width="450" height="360">
+    <br>
+    <br>
+    <br>
+    <p>love/sex statistics</p>
+    <img src="static/love sex.jpg" width="1000" height="700">
+{% endblock %}
